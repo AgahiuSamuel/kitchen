@@ -1,0 +1,119 @@
+@media(max-width:600px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .menu-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    padding: 5px 0;
+    width: 100px;
+    background-color: rgb(245, 139, 1);
+  }
+
+  .menu-links.active {
+    display: flex;
+    margin-top: 2.25em;
+  }
+
+  .menu-links li a {
+    color: #fff;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle:active .menu-links {
+    display: flex;
+  }
+
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg)translate(5px, 5px)
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg)translate(5px, -5px)
+  }
+
+  .chemistry .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .containers {
+    display: flex;
+    gap:10px;
+  }
+  .passage3{
+    font-size: 18px;
+  }
+  .physics .container{
+    padding: 0 5px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .biology .container{
+    padding: 0 5px;
+  }
+  .passage5{
+    max-width: 10rem;
+    font-size: 8px;
+  }
+  .maths .container{
+    padding: 5px 5px;
+    height: 200px;
+  }
+  .passage6{
+    padding: 4px 0;
+    font-size: 19px;
+  }
+  .fmaths .container ul{
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  .compartments .container{
+    padding: 0 0px;
+  }
+  section .container{
+    padding: 0 5px;
+  }
+  .eight{
+    height: 120px;
+    width: 190px;
+  }
+  .english .container{
+    padding: 0 5px;
+    flex-direction: column;
+  }
+  .ninth{
+    width: 590px;
+  }
+  .twelvth .container{
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 20px;
+  }
+  .civic .container{
+    padding: 0 5px;
+    flex-direction: column;
+  }
+  .modern{
+    width: auto;
+  }
+  .agric .container{
+    padding: 0 5px;
+  }
+
+}
